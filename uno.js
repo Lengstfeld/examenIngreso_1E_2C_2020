@@ -26,7 +26,7 @@ function mostrar()
 	    }
 	
 	    peso = parseFloat(prompt("Ingresar peso: "));
-	    while (!(peso < 1)) {
+	    while (peso < 1){
 	        peso = parseFloat(prompt("Error. Ingresar peso: ")); 
 		}		
 		
